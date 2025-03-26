@@ -141,6 +141,16 @@ main section p {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    font-family: League Spartan;
+    color: hsl(300, 43%, 22%);
+    background-image: url("images/bg-pattern-top-mobile.svg"),
+      url("images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+  }
+
   .container {
     width: 100%;
     min-height: 100vh;
